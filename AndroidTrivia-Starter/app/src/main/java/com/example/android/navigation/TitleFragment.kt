@@ -14,6 +14,8 @@ import com.example.android.navigation.databinding.FragmentTitleBinding
 /**
  * A simple [Fragment] subclass.
  */
+private const val ARG_PARAM1 = "param1"
+private const val ARG_PARAM2 = "param2"
 class TitleFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
